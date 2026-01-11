@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment variables (КРИТИЧНО!)
+.env
+.env.local
+.env.*.local
+telegram-bot/.env
+
+# Database files
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+telegram-bot/prisma/dev.db
+telegram-bot/prisma/dev.db-journal
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+telegram-bot/dist/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS files
+Thumbs.db
+
+# Temporary
+temp/
+tmp/
+*.tmp
+.cache/
